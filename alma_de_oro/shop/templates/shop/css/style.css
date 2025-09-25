@@ -35,6 +35,30 @@
   --font-family-sans-serif: "Roboto", sans-serif;
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
+.navbar {
+  background-color: #D4AF37 !important; /* dorado */
+}
+
+.navbar .nav-link {
+  color: white !important; /* texto en blanco */
+}
+
+.navbar .nav-link:hover {
+  color: #FFD700 !important; /* dorado más brillante en hover */
+}
+.topbar {
+  background-color: #000000 !important; /* negro */
+  color: #FFFFFF !important;           /* texto blanco */
+}
+
+/* Header principal */
+.header {
+  background-color: #800020 !important; /* ejemplo: burdeos */
+}
+.topbar {
+  background-color: #000000 !important; /* negro */
+  color: #FFFFFF !important;           /* texto blanco */
+}
 
 *,
 *::before,
@@ -59,7 +83,7 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #6C757D;
+  color: #000000;
   text-align: left;
   background-color: #F5F5F5;
 }
